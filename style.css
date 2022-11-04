@@ -4,10 +4,7 @@ body {
     box-sizing: border-box;
     overflow-x: hidden;
     font-family: 'Optien', sans-serif;
-}
-
-#home {
-    background: url(./aafd2371e249bbbcc6d84a981c45e6bb.jpg) cover no-repeat;
+    background: url(./545d219259d7c6034ff017d5d6d571a0.jpg);
 }
 
 .navbar {
@@ -81,4 +78,18 @@ body {
 
 #about .btn:hover{
     color: #FBC403;
+}
+
+#contact .btn1 {
+    border: 2px solid;
+    background: #151515;
+    padding: 15px 22px;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#contact .btn1:hover{
+    color: #FBC403;
+    border: none;
 }
