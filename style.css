@@ -4,7 +4,7 @@ body {
     box-sizing: border-box;
     overflow-x: hidden;
     font-family: 'Optien', sans-serif;
-    background: url(./545d219259d7c6034ff017d5d6d571a0.jpg);
+    background: url(./IMG/545d219259d7c6034ff017d5d6d571a0.jpg);
 }
 
 .navbar {
@@ -92,4 +92,15 @@ body {
 #contact .btn1:hover{
     color: #FBC403;
     border: none;
+}
+
+.social-links a{
+    color: #151515;
+    font-size: 20px;
+    transition: .6s;
+}
+
+.social-links a:hover{
+    transform: scale(1.3);
+    color: #FBC403;
 }
