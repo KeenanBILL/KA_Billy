@@ -59,16 +59,24 @@ body {
     display: inline-block;
 }
 
-#about .btn{
+#about .btn1{
     border: 2px solid transparent;
     width: 40%;
     padding: 15px 22px;
     background: #151515;
     border-radius: 5px;
     margin-top: 10px;
+    display: inline-block;
+    opacity: 0 6;
+    transition: 0.4s;
 }
 
-#about .btn a{
+#about .btn1:hover {
+    background: grey;
+    opacity: 0 1;
+}
+
+#about .btn1 a{
     color: white;
     text-decoration: none;
     font-size: 1em;
@@ -76,11 +84,12 @@ body {
     text-transform: uppercase;
 }
 
-#about .btn:hover{
+#about .btn1 a:hover{
     color: #FBC403;
+    border: none;
 }
 
-#contact .btn1 {
+#contact-me .btn1 {
     border: 2px solid;
     background: #151515;
     padding: 15px 22px;
@@ -89,18 +98,84 @@ body {
     margin-top: 10px;
 }
 
-#contact .btn1:hover{
+#contact-me .btn1:hover{
     color: #FBC403;
     border: none;
+    background: grey;
+}
+
+#projects .btn2 {
+    border: 2px solid none;
+    background: #151515;
+    padding: 10px;
+    border-radius: 50px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+#projects .btn2:hover{
+    color: #FBC403;
+    border: none;
+    background: grey;
 }
 
 .social-links a{
     color: #151515;
-    font-size: 20px;
+    font-size: 30px;
     transition: .6s;
 }
 
 .social-links a:hover{
     transform: scale(1.3);
     color: #FBC403;
+}
+
+.sites a{
+    color: #FBC403;
+    padding: 10px;
+    align-items: center;
+}
+
+.sites a:hover{
+    border: none;
+    color: black;
+}
+
+.container {
+    top: 50%;
+    left: 50%;
+}
+
+.Input1 {
+    font-size: 20px;
+    font-weight: 300;
+    justify-content: center;
+    display: flex;
+}
+
+.container .head1:hover {
+    text-transform: uppercase;
+    display: block;
+    position: relative;
+    animation: text 3s 1;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+@keyframes text {
+    0% {
+        margin-bottom: -40px;
+    }
+    30% {
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+    70% {
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+    
 }
